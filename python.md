@@ -1,7 +1,8 @@
 # El tutorial de Python
 Tutorial de python en 5 faciles pasos
 ### ¿Que es python?
-Python es un lenguaje de programación potente y fácil de aprender. Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
+
+_Python es un lenguaje de programación potente y fácil de aprender. Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas._
 
 
 # ¿Qué beneficios ofrece Python?
@@ -69,3 +70,67 @@ La prueba de software es el proceso de verificar si los resultados reales del so
    * Los encargados de probar el software utilizan Python para escribir casos de prueba para diversos escenarios de prueba. Por ejemplo, lo utilizan para probar la interfaz de usuario de una aplicación web, los diversos componentes de software y las nuevas características. 
 
 Los desarrolladores pueden utilizar varias herramientas para ejecutar scripts de prueba de manera automática. Estas herramientas se conocen como herramientas de integración e implementación continuas (CI/CD). Los encargados de probar el software y sus desarrolladores utilizan las herramientas de CI/CD, como Travis CI y Jenkins, para automatizar las pruebas. La herramienta de CI/CD ejecuta automáticamente los scripts de prueba de Python e informa los resultados de las pruebas cada vez que los desarrolladores presentan nuevos cambios de código.
+
+# ¿Cuál es la historia de Python?
+
+Guido Van Rossum, un programador de computación de los Países Bajos, creó Python. Python comenzó en 1989 en el Centrum Wiskunde & Informatica (CWI), en principio como un proyecto de afición para mantenerse ocupado durante las vacaciones de Navidad. El nombre del lenguaje se inspiró en el programa de televisión de la BBC “Monty Python’s Flying Circus” debido a que Guido Van Rossum era un gran aficionado del programa. 
+Historial de lanzamientos de Python
+
+  *  Guido Van Rossum publicó la primera versión del código Python (versión 0.9.0) en 1991. Dicha versión ya incluía buenas características, como algunos tipos de datos y funciones para la gestión de errores. 
+  *  Python 1.0 se lanzó en 1994 con nuevas funciones para procesar fácilmente una lista de datos, como la asignación, el filtrado y la reducción.
+  *  Python 2.0 se lanzó el 16 de octubre de 2000, con nuevas características útiles para los programadores, como la compatibilidad con los caracteres Unicode y una forma más corta de recorrer una lista.
+  *  El 3 de diciembre de 2008, se lanzó Python 3.0. Incluía características como la función de impresión y más soporte para la división de números y la gestión de errores. 
+
+
+# ¿Cuáles son las características de Python?
+
+Las características siguientes del lenguaje de programación Python lo hacen único:
+Un lenguaje interpretado
+
+Python es un lenguaje interpretado, lo que significa que ejecuta directamente el código línea por línea. Si existen errores en el código del programa, su ejecución se detiene. Así, los programadores pueden encontrar errores en el código con rapidez.
+Un lenguaje fácil de utilizar
+
+Python utiliza palabras similares a las del inglés. A diferencia de otros lenguajes de programación, Python no utiliza llaves. En su lugar, utiliza sangría. 
+Un lenguaje tipeado dinámicamente
+
+Los programadores no tienen que anunciar tipos de variables cuando escriben código porque Python los determina en el tiempo de ejecución. Debido a esto, es posible escribir programas de Python con mayor rapidez.
+Un lenguaje de alto nivel
+
+Python es más cercano a los idiomas humanos que otros lenguajes de programación. Por lo tanto, los programadores no deben preocuparse sobre sus funcionalidades subyacentes, como la arquitectura y la administración de la memoria.
+Un lenguaje orientado a los objetos
+
+Python considera todo como un objeto, pero también admite otros tipos de programación, como la programación estructurada y la funcional.
+
+
+# ¿Qué son los marcos de Python?
+
+Un marco de Python es una colección de paquetes y módulos. Un módulo es un conjunto de código relacionado, y un paquete es un conjunto de módulos. Los desarrolladores pueden usar los marcos de Python para crear aplicaciones de Python más rápido debido a que no tienen que preocuparse por los detalles de nivel inferior, como la forma en que se producen las comunicaciones en la aplicación web o el modo en que Python hará que el programa sea más rápido. Python tiene dos tipos de marcos: 
+
+   * El marco de pila completa incluye casi todo lo que se necesita para crear una aplicación grande.
+   * El micromarco es un marco básico que proporciona funcionalidades mínimas para crear aplicaciones de Python simples. También proporciona extensiones si las aplicaciones necesitan funciones más sofisticadas.
+
+### ¿Cuáles son los marcos de Python más conocidos?
+
+Los desarrolladores pueden utilizar varios marcos de Python para que su desarrollo sea eficiente, incluidos los siguientes:
+Django
+
+Django es uno de los marcos web de Python de pila completa más utilizados para el desarrollo de aplicaciones web a gran escala. Proporciona varias características útiles, incluidos un servidor web para el desarrollo y las pruebas, un motor de plantillas para crear el sitio web de frontend y diversos mecanismos de seguridad.
+Flask
+
+Flask es un micromarco que se utiliza para el desarrollo de aplicaciones web pequeñas. Sus características incluyen un importante soporte de la comunidad, documentación bien escrita, un motor de plantillas, pruebas de unidad y un servidor web integrado. También proporciona extensiones para el soporte de validación, las capas de asignación de bases de datos y la seguridad web.
+TurboGears
+
+TurboGears es un marco diseñado para crear aplicaciones web con mayor rapidez y facilidad. Estas son algunas de sus características clave: 
+
+   * Estructura específica de tabla de base de datos
+   * Herramientas para la creación y la administración de proyectos
+   * Motor de plantillas para crear las bases de datos
+   * Motor de plantillas para crear el frontend
+   * Mecanismos para manejar la seguridad web
+
+#### Apache MXNet
+
+Apache MXNet es un marco de aprendizaje profundo rápido, flexible y escalable que los desarrolladores utilizan para crear prototipos de investigación y aplicaciones de aprendizaje profundo. Admite múltiples lenguajes de programación, incluidos Java, C++, R y Perl. Proporciona un completo conjunto de herramientas y bibliotecas para brindar soporte al desarrollo. Por ejemplo, puede encontrar un libro interactivo de machine learning (ML), kits de herramientas de visión artificial y modelos de aprendizaje profundo para el procesamiento de lenguaje natural (NLP), que procesan este lenguaje, como el texto y el habla.
+PyTorch
+
+PyTorch es un marco para el machine learning que se ha creado sobre la biblioteca Torch, que es otra biblioteca de machine learning de código abierto.  Los desarrolladores lo utilizan para aplicaciones como las de NLP, robótica y visión artificial, para encontrar información significativa en las imágenes y los videos. También lo utilizan para ejecutar esas aplicaciones en las CPU y las GPU.
